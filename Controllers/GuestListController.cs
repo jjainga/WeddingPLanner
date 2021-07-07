@@ -20,9 +20,9 @@ namespace weddingplanner.Controllers
             _db = db;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAll() 
+        public async Task<IActionResult> GetAll(int id) 
         {
-            return Json(new {data = await _db.Guest.ToListAsync() });
+            return Json(new {data = await _db.Guest.ToListAsync(u => u.WeddingEventRefId == id) });
         }
 
         [HttpDelete]
