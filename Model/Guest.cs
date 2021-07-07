@@ -25,6 +25,7 @@ namespace weddingplanner.Model
         public int PhoneNumber { get; set;}
         public string Email {get;set;}
         public string HotelName {get; set;}
+        public string Family {get; set;}
 
     }
 }
