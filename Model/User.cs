@@ -19,6 +19,7 @@ namespace weddingplanner.Model
         [Required]
         public string Name { get; set; }
         public string Email { get; set; }
+        public string password { get; set;} 
         public int PhoneNumber { get; set; }
         public string Role { get; set;}
     }

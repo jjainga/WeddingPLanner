@@ -2,13 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using BookListRazor.Model;
+using weddingplanner.Model;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace weddingplanner.Controllers
 {
-    [Route("api/Book")]
+    [Route("api/Event/venue")]
     [ApiController]
     public class VenueController : Controller
     {

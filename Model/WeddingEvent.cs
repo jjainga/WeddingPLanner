@@ -13,6 +13,16 @@ namespace weddingplanner.Model
 
         [Required]
         public string Title { get; set; }
+        [Required]
+        public string GroomName { get; set; }
+        public string GroomEmail { get; set; }
+        public string GroomPassword { get; set;} 
+        public int GroomPhoneNumber { get; set; }
+        public string BrideName { get; set; }
+        public string BrideEmail { get; set; }
+        public string BridePassword { get; set;} 
+        public int BridePhoneNumber { get; set; }
+    
         
     }
 }
